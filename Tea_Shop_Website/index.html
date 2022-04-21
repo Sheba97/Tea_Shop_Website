@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=devicewidth,initial-scale = 1.0">
+        <title>Responsive tea shop website design</title> 
+        
+        <!-- font awesome cdn link-->
+        <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+        <!-- custom css file link-->
+        <link rel ="stylesheet" href="styles.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+    </head>
+
+    <body>
+
+        <!--header section start-->
+        <header class="header">
+            <a href="#" class="logo">
+                <img src = "images/logo.png"  alt ="log" >         
+            </a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#products">Products</a>
+                <a href="#review">Review</a>
+                <a href="#contacts">Contact US</a>
+            </nav>
+
+            <div class="icons">
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+
+            <div class = "search-form">
+                <input type="search" id="search-box" placeholder="search here...">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+
+            <div class="cart-items-container">
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/cart-item-1.png" alt="">
+                    <div class="content">
+                        <h3>cart item 01</h3>
+                        <div class="price">$15.00</div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/cart-item-2.png" alt="">
+                    <div class="content">
+                        <h3>cart item 02</h3>
+                        <div class="price">$15.00</div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/cart-item-3.png" alt="">
+                    <div class="content">
+                        <h3>cart item 03</h3>
+                        <div class="price">$15.00</div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/cart-item-4.png" alt="">
+                    <div class="content">
+                        <h3>cart item 04</h3>
+                        <div class="price">$15.00</div>
+                    </div>
+                </div>
+                <a href="#" class="btn">checkout now</a>
+            </div>
+
+        </header>
+        <!--header section end-->
+
+        <!--home section starts-->
+
+        <section class="home" id="home">
+            <div class="content">
+                <h3>fresh tea in the morning</h3>
+                <p>The tea must be exclusively packed in Sri Lanka. Overseas packers, importers and distributors cannot use the Lion logo on their packaging, even if the contents are 100% Sri Lankan.</p>
+                <a href="#" class="btn">get yours now</a>
+            </div>
+        </section>
+        <!--home section ends-->
+
+        <!--about section starts-->
+        
+        <section class="about" id="about">
+            <h1 class="heading"><span>about</span> us</h1>
+            <div class="row">
+                <div class="image">
+                    <!--<img src = "F:\Coursera\HTML5\images\pexels-hasan-albari-1493080.jpg" alt="">-->
+                    <img src = "https://imageio.forbes.com/specials-images/imageserve/5f6c061ca71799093f55fd02/Aromatic-herbal-tea-/0x0.jpg?fit=crop&format=jpg&crop=5029,3354,x0,y0,safe" alt ="">
+                </div>
+
+                <div class="content">
+                    <h3>what makes our tea special?</h3>
+                    <p>Sri Lankans drink black tea very strong with milk and sugar. 
+                        Sharing a pot in the afternoon is a common way to wind down from a busy day. The tea of choice in most households is the strong black tea, commonly called “Ceylon Tea”. 
+                        Since tea is so important in Sri Lanka, there are a few specialized tea houses where you can try not only the usual teas but also some new blends and tea cocktails. 
+                        Visit the t-Lounge by Dilmah in Colombo for the best tea experience on the island. Halpe Tea is also a high contender. Even better, take a train to the tea country and visit the tea factories</p>
+
+                    <button class="btn" id = "learn-more">learn more</button>
+                    <!--<a href="#" class="btn" id = "learn-more">learn more</a>-->
+                    <div id = leran_more_content"><p></p></div>
+                </div>
+
+            </div>
+        </section>
+        <!--about section ends-->
+
+        <!--menu section starts-->
+        <section class="menu" id="menu">
+            <h1 class="heading"> our <span>menu</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src = "images/menu-1.png" alt="">
+                    <h3>tasty and healthy</h3>
+                    <div class="price">$15.00 <span>20.00</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                
+                <div class="box">
+                    <img src = "images/menu-2.png" alt="">
+                    <h3>tasty and healthy</h3>
+                    <div class="price">$15.00 <span>20.00</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <img src = "images/menu-3.png" alt ="">
+                    <h3>tasty and healthy</h3>
+                    <div class="price">$15.00 <span>20.00</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                
+                <div class="box">
+                    <img src = "images/menu-4.png" alt ="">
+                    <h3>tasty and healthy</h3>
+                    <div class="price">$15.00 <span>20.00</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <img src = "images/menu-5.png" alt ="">
+                    <h3>tasty and healthy</h3>
+                    <div class="price">$15.00 <span>20.00</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <img src = "images/menu-6.png" alt ="">
+                    <h3>tasty and healthy</h3>
+                    <div class="price">$15.00 <span>20.00</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </section>
+        <!--menu section ends-->
+
+        <!--products section strats-->
+        <section class="products" id="products">
+            <h1 class="heading"> our <span> products</span></h1>
+            <div class="box-container">
+
+                <div class="box">                  
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src ="images/ctea-tea-products-Hover-pekoe1.png" alt = "">
+                    </div>
+                    <div class="content">
+                        <h3>cee tea hills</h3>
+                        <div class="stars">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                             <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-alt" ></i>
+                        </div>
+                        <div class="price">$15.00 <span>$20.00</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src ="images/ctea-tea-products-Hover-ceylon-sup.png" alt = "">
+                    </div>
+                    <div class="content">
+                        <h3>ceylon suprem</h3>
+                        <div class="stars">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-alt" ></i>
+                        </div>
+                        <div class="price">$15.00 <span>$20.00</span></div>
+                    </div>
+                </div>
+ 
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src ="images/ctea-tea-products-Hover-Nilidiya-valley1.png" alt = "">
+                    </div>
+                    <div class="content">
+                        <h3>nildiya valley</h3>
+                        <div class="stars">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-alt" ></i>
+                        </div>
+                        <div class="price">$15.00 <span>$20.00</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--products section ends-->
+
+        <!--review section stats-->
+        <section class="review" id="review">
+            <h1 class="heading"> cutomer' s<span> review </span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/quote-img.png" alt="" class="quote">
+                    <p>The aroma is a medium woodsy. Dark, twisted leaves. 
+                        The liquor, after a five minute steep, is a very dark brown. 
+                        Flavor is good, with a mild spicy after taste. 
+                        This tea will be added to my regular rotation. Easy to sip all day.</p>
+                    <img src="images/pic-1.png" alt="" class="user">
+                    <h3>john wick</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/quote-img.png" alt="" class="quote">
+                    <p>The store had a wide variety of tea on sale and I would say the price is reasonably priced. 
+                        They have tea that comes in the form of loose tea leafs, enveloped tea bags as well as pyramid tea bags (limited). 
+                        They also have different types of Ceylonese tea (i.e. BOP, Orange Pekoe, etc). 
+                        The staff will not do hard selling and will not give you any recommendations 
+                        - leaving you with some alone time to choose the tea on your own, which I prefer.</p>
+                    <img src="images/pic-2.png" alt="" class="user">
+                    <h3>Ann Silva</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/quote-img.png" alt="" class="quote">
+                    <p>Great collection of tea, gift collection at reasonable prices. 
+                        A few mugs and souvenirs and tea sets but astronomical prices. 
+                        Good place to stock up on Ceylon tea as well as English tea for your family.</p>
+                    <img src="images/pic-3.png" alt="" class="user">
+                    <h3>frank walker</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!--review section ends-->
+
+        <!--Contact section staets-->
+        <section class="contacts" id="contacts">
+            <h1 class="heading">contact <span> us</span></h1>
+            <div class="table-container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>contact person</th>
+                            <th>contact number</th>
+                            <th>email address</th>
+                            <th>#</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="contact person">Shehan Ranawaka</td>
+                            <td data-label="contact number">+94 71 788 8031</td>
+                            <td data-label="email address"><a style = "color:#fff;" href="www.gmail.com/shehanranw@gmail.com">shehanranw@gmail.com</a></td>
+                            <td data-label="#"><a href ="#" class = "btn"> Contact <span>now</span></a></td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="contact person">Ichika Nanako</td>
+                            <td data-label="contact number">+94 70 149 2033</td>
+                            <td data-label="email address"><a style = "color:#fff;" href="nankoichika@gmail.com">nankoichika@gmail.com</a></td>
+                            <td data-label="#"><a href ="#" class = "btn"> Contact <span>now</span></a></td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="contact person">Miku Nanako</td>
+                            <td data-label="contact number">+94 70 149 2035</td>
+                            <td data-label="email address"><a style = "color:#fff;" href="nankoichika@gmail.com">nankomiku@gmail.com</a></td>
+                            <td data-label="#"><a href ="#" class = "btn"> Contact <span>now</span></a></td>
+                        </tr>
+                    </tbody>
+                </table>                
+            </div>
+        </section>
+        add
+        <!--contact section ends-->
+
+        <!--footer section starts-->
+        <section class="footer">
+            <div class="share">
+                <a href ="#" class="fab fa-facebook-f"></a>
+                <a href ="#" class="fab fa-twitter"></a>
+                <a href ="#" class="fab fa-instagram"></a>
+                <a href ="#" class="fab fa-linkedin"></a>
+                <a href ="#" class="fab fa-whatsapp"></a>
+            </div>
+
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#products">Products</a>
+                <a href="#review">Review</a>
+                <a href="#contacts">Contact US</a>
+            </div>
+            
+            <div class="credit">creditrd by <span>Shehan Ranawaka</span> | all rights reserved</div>
+        </section>
+        <!-- custom js file link-->
+        <script type = "text/javascript"  src = "tea_javascript.js"></script>
+    </body>
+</html> 
