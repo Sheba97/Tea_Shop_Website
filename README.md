@@ -1,2 +1,2 @@
 # Tea_Shop_Website
-A responsive website for a tea shop is created using HTML5,CSS3 and JavaScript
+Develop a responsive web site for a tea shop using HTML5, CSS3 & JavaScript. The only front end was developed so far. The project was carried out under the Trainee – Full Stack Developer Course. 
